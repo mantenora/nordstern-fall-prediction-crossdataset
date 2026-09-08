@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.local
+credentials.json
+
+# Large data files (deposited externally on Zenodo, not in Git)
+data_derived/
+*.parquet
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+
+# Logs
+*.log
+logs/
+
+# Local results (aggregate JSON deposits should live in results/, this line
+# excludes ad-hoc scratch outputs; add explicit exceptions with !)
+results/scratch/
