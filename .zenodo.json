@@ -1,0 +1,37 @@
+{
+    "title": "Cross-Dataset Benchmarking of Multi-Sensor Fall Prediction Approaches in Parkinson's Disease and Older Adults (Nordstern v1.0-submission)",
+    "description": "<p>Reproducibility deposit for the Nordstern cross-dataset benchmarking study of multi-sensor machine-learning fall prediction models in Parkinson's disease and older adults. This deposit accompanies the manuscript submission to the Journal of NeuroEngineering and Rehabilitation (JNER) and provides the code and derived-data artifacts underlying the reported results.</p><p><strong>Content of this v1.0-submission tag:</strong> figure-generation Python scripts (matplotlib and seaborn), five publication-ready figures (Cohort Cluster Diagram, Forest Plot, M07 Calibration and Decision-Curve Analysis, Riley 2020 EPV vs R2, Supplement Figure S1 6-panel DCA) as PNG (300 DPI) and PDF (Type-42 embedded), manuscript-derived documents (Manuscript Full, Supplementary Information, PROBAST assessment, TRIPOD-AI checklist), and a results/README placeholder for future sub7-sub24 aggregate-metric deposits.</p><p><strong>Compliance:</strong> TRIPOD Item 19 supplementary information requirement, TRIPOD-AI Extension Item AI-9 code-and-data-availability requirement, PhysioNet Credentialed Health Data License 1.5.0 code-contribution requirement, PPMI Publications Policy September 2024 (Data Publications Committee and Steering Committee pre-submission review completed), SAGE Bionetworks Community Data Use Pledge.</p><p><strong>Data sources referenced (not deposited):</strong> PPMI Verily Study Watch Substudy (PPMI DUA v5.0), WearGait-PD (SAGE Synapse syn52540892), COPS (Zenodo CC-BY 4.0), CAPTURE-24 D79 (Oxford ORA CC-BY), PhysioNet datasets gaitpdb, LTMM, tremordb, hbedb, KINECAL (ODC-BY 1.0).</p><p><strong>Reproducibility:</strong> Python 3.11 with matplotlib 3.11.1, seaborn 0.13.2, scipy 1.17.1, numpy 2.4.6. Regeneration via <code>python scripts/sub25a_manuscript_figures.py</code> and <code>python scripts/sub25b_supplement_figure_s1.py</code>. Parametric reconstruction convention: Steyerberg 2019 sigmoid, Metz 1986 binormal-ROC, Vickers-Elkin 2006 net-benefit.</p><p><strong>Manuscript:</strong> Brühl P. Cross-Dataset Benchmarking of Multi-Sensor Fall Prediction Approaches in Parkinson's Disease and Older Adults: A Proof-of-Concept Heterogeneity Analysis (submitted to Journal of NeuroEngineering and Rehabilitation, 2026).</p>",
+    "upload_type": "software",
+    "creators": [
+        {
+            "name": "Brühl, Philipp",
+            "affiliation": "Mantenora GmbH (in formation), Germany",
+            "orcid": "0009-0006-3157-3356"
+        }
+    ],
+    "keywords": [
+        "fall prediction",
+        "Parkinson's disease",
+        "wearable sensors",
+        "inertial measurement unit",
+        "cross-dataset benchmarking",
+        "heterogeneity analysis",
+        "proof of concept",
+        "machine learning",
+        "XGBoost",
+        "gradient boosting",
+        "nested cross-validation",
+        "decision-curve analysis",
+        "TRIPOD-AI",
+        "PROBAST",
+        "reproducibility"
+    ],
+    "license": "MIT",
+    "language": "eng",
+    "version": "1.0-submission",
+    "publication_date": "2026-09-08",
+    "access_right": "open",
+    "notes": "This deposit is synchronized with the GitHub repository mantenora/nordstern-fall-prediction-crossdataset at the annotated tag v1.0-submission (commit 4648efe). New deposit versions will be created upon future manuscript revisions or post-execution sub7-sub24 aggregate-metric additions.",
+    "communities": [],
+    "contributors": []
+}
