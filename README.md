@@ -20,8 +20,9 @@ Heterogeneity Analysis of 14 Model Cohorts across 8 Public Data Sources
 **Target journal**: Journal of NeuroEngineering and Rehabilitation (JNER),
 BMC Series, Open Access. Manuscript type: Original Research Article.
 
-**Preprint / DOI**: to be added prior to submission (Zenodo permanent DOI
-will be synchronized with the Git tag `v1.0-submission`).
+**Preprint / DOI**: https://doi.org/10.5281/zenodo.22670755 (Zenodo
+permanent DOI synchronized with Git tag `v1.0-submission`, published
+2026-09-09).
 
 ## Data Sources
 
@@ -141,7 +142,7 @@ repository deposit as:
   year         = 2026,
   version      = {v1.0-submission},
   publisher    = {Zenodo},
-  doi          = {to be added upon Zenodo synchronization}
+  doi          = {10.5281/zenodo.22670755}
 }
 ```
 
